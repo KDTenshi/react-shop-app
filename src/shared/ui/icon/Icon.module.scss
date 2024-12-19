@@ -1,0 +1,8 @@
+@use "../../style/colors" as c;
+@use "../../style/spacings" as s;
+
+@import "../../style/mixins";
+
+.Icon {
+  font-size: 36px !important;
+}

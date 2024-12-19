@@ -1,0 +1,23 @@
+.Header {
+  width: 100%;
+  padding: 25px 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e8e8e8;
+}
+
+.Buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.User {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px !important;
+}/*# sourceMappingURL=Header.module.css.map */

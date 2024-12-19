@@ -1,0 +1,12 @@
+@use "../../style/colors" as c;
+@use "../../style/spacings" as s;
+
+@import "../../style/mixins";
+
+.Logo {
+  @include Text_Black(36px);
+
+  & span {
+    @include Text_Red(36px);
+  }
+}

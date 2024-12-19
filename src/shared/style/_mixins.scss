@@ -1,0 +1,24 @@
+@use "./colors" as c;
+@use "./spacings" as s;
+
+@mixin Text($color: c.$black, $size: 16px) {
+  color: $color;
+  font-size: $size;
+
+  &::selection {
+    background: c.$red;
+    color: c.$black;
+  }
+}
+
+@mixin Text_Red($size: 16px) {
+  @include Text(c.$red, $size);
+}
+
+@mixin Text_Black($size: 16px) {
+  @include Text(c.$black, $size);
+}
+
+@mixin Text_White($size: 16px) {
+  @include Text(c.$white, $size);
+}

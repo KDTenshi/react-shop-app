@@ -1,0 +1,24 @@
+@use "../../style/colors" as c;
+@use "../../style/spacings" as s;
+
+@import "../../style/mixins";
+
+.Button {
+  @include Text_Black(16px);
+
+  padding: 10px;
+  background: c.$white;
+  border: 1px solid c.$black;
+  border-radius: 10px;
+  cursor: pointer;
+
+  transition: color 0.25s;
+
+  &:active {
+    background: c.$gray-light;
+  }
+
+  &:hover {
+    @include Text_Red(16px);
+  }
+}
