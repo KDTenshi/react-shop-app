@@ -1,9 +1,8 @@
-import { ButtonHTMLAttributes, FC } from "react";
+import { FC } from "react";
 import style from "./Button.module.css";
+import { ButtonPropsDefault } from "../../types/types";
 
-type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
-
-const Button: FC<ButtonProps> = ({ children, className = "", ...restProps }) => {
+const Button: FC<ButtonPropsDefault> = ({ children, className = "", ...restProps }) => {
   const fullClassName = [style.Button, className].join(" ");
 
   return (

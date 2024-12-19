@@ -1,20 +1,16 @@
 import { FC } from "react";
 import style from "./Icon.module.css";
+import { IconType } from "../../types/types";
+import { ICONS } from "../../constants/constants";
 
 interface IconProps {
-  type: "user" | "fav" | "cart";
+  type: IconType;
 }
-
-const icons = {
-  user: "account_circle",
-  fav: "favorite",
-  cart: "shopping_cart",
-};
 
 const Icon: FC<IconProps> = ({ type }) => {
   const className = [style.Icon, "material-symbols-outlined"].join(" ");
 
-  const content = icons[type];
+  const content = ICONS[type];
 
   return <span className={className}>{content}</span>;
 };

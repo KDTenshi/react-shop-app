@@ -1,0 +1,38 @@
+.IconButton_Big {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color: #0d0c0b;
+  font-size: 20px;
+  padding: 0 10px !important;
+  gap: 10px;
+}
+.IconButton_Big::-moz-selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.IconButton_Big::selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.IconButton_Big:hover {
+  color: #f80000;
+  font-size: 20px;
+}
+.IconButton_Big:hover::-moz-selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.IconButton_Big:hover::selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.IconButton_Small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  padding: 0 !important;
+  width: 50px;
+}/*# sourceMappingURL=IconButton.module.css.map */
