@@ -1,0 +1,31 @@
+@use "../../../shared/style/colors" as c;
+@use "../../../shared/style/spacings" as s;
+
+@import "../../../shared/style/mixins";
+
+.Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: c.$black;
+}
+
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Link {
+  @include Text_White(20px);
+
+  display: block;
+  background: c.$black;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: color 0.25s;
+
+  &:hover {
+    @include Text_Red(20px);
+  }
+}
