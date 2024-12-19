@@ -1,0 +1,32 @@
+@use "../../style/colors" as c;
+@use "../../style/spacings" as s;
+
+@import "../../style/mixins";
+
+@mixin IconButton() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.IconButton {
+  &_Big {
+    @include IconButton();
+    @include Text_Black(20px);
+
+    padding: 0 10px !important;
+    gap: 10px;
+
+    &:hover {
+      @include Text_Red(20px);
+    }
+  }
+
+  &_Small {
+    @include IconButton();
+
+    padding: 0 !important;
+    width: 50px;
+  }
+}
