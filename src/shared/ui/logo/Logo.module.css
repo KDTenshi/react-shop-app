@@ -1,0 +1,24 @@
+.Logo {
+  color: #0d0c0b;
+  font-size: 36px;
+}
+.Logo::-moz-selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.Logo::selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.Logo span {
+  color: #f80000;
+  font-size: 36px;
+}
+.Logo span::-moz-selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.Logo span::selection {
+  background: #f80000;
+  color: #0d0c0b;
+}/*# sourceMappingURL=Logo.module.css.map */

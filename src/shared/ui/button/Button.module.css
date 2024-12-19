@@ -1,0 +1,33 @@
+.Button {
+  color: #0d0c0b;
+  font-size: 16px;
+  padding: 10px;
+  background: #e8e8e8;
+  border: 1px solid #0d0c0b;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: color 0.25s;
+}
+.Button::-moz-selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.Button::selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.Button:active {
+  background: #dadada;
+}
+.Button:hover {
+  color: #f80000;
+  font-size: 16px;
+}
+.Button:hover::-moz-selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.Button:hover::selection {
+  background: #f80000;
+  color: #0d0c0b;
+}/*# sourceMappingURL=Button.module.css.map */

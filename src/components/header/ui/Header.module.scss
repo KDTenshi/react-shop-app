@@ -1,0 +1,28 @@
+@use "../../../shared/style/colors" as c;
+@use "../../../shared/style/spacings" as s;
+
+@import "../../../shared/style/mixins";
+
+.Header {
+  width: 100%;
+  padding: 25px 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: c.$white;
+}
+
+.Buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.User {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px !important;
+}
