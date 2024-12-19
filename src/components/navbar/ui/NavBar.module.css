@@ -1,0 +1,42 @@
+.Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0d0c0b;
+}
+
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Link {
+  color: #e8e8e8;
+  font-size: 20px;
+  display: block;
+  background: #0d0c0b;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: color 0.25s;
+}
+.Link::-moz-selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.Link::selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.Link:hover {
+  color: #f80000;
+  font-size: 20px;
+}
+.Link:hover::-moz-selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.Link:hover::selection {
+  background: #f80000;
+  color: #0d0c0b;
+}/*# sourceMappingURL=NavBar.module.css.map */
