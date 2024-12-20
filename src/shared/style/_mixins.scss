@@ -19,6 +19,10 @@
   @include Text(c.$black, $size);
 }
 
+@mixin Text_Gray($size: 16px) {
+  @include Text(c.$gray, $size);
+}
+
 @mixin Text_White($size: 16px) {
   @include Text(c.$white, $size);
 }

@@ -1,0 +1,66 @@
+@use "../../../shared/style/colors" as c;
+@use "../../../shared/style/spacings" as s;
+
+@import "../../../shared/style/mixins";
+
+.ItemCard {
+  width: 100%;
+  background: c.$white;
+  cursor: pointer;
+  transition: box-shadow 0.25s;
+  position: relative;
+
+  &:active {
+    background: c.$gray-light;
+  }
+
+  &:hover {
+    box-shadow: 0 0 15px c.$black;
+  }
+}
+
+.Image {
+  width: 100%;
+  height: 250px;
+  background: c.$gray-light;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  & img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.Info {
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Name {
+  @include Text_Black(20px);
+
+  font-weight: 700;
+}
+
+.Price {
+  @include Text_Gray(16px);
+
+  margin-left: 10px;
+}
+
+.SaleMark {
+  @include Text_White(20px);
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: c.$red;
+  padding: 10px 20px;
+}
