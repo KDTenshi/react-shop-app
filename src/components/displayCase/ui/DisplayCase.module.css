@@ -1,0 +1,27 @@
+.DisplayCase {
+  padding: 0 10vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #e8e8e8;
+}
+
+.Title {
+  color: #0d0c0b;
+  font-size: 24px;
+}
+.Title::-moz-selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.Title::selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+
+.Wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 20px;
+  padding: 20px;
+}/*# sourceMappingURL=DisplayCase.module.css.map */

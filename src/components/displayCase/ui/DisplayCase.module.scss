@@ -1,0 +1,23 @@
+@use "../../../shared/style/colors" as c;
+@use "../../../shared/style/spacings" as s;
+
+@import "../../../shared/style/mixins";
+
+.DisplayCase {
+  padding: 0 10vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: c.$white;
+}
+
+.Title {
+  @include Text_Black(24px);
+}
+
+.Wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 20px;
+  padding: 20px;
+}
