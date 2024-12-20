@@ -1,0 +1,84 @@
+.ItemCard {
+  width: 100%;
+  background: #e8e8e8;
+  cursor: pointer;
+  transition: box-shadow 0.25s;
+  position: relative;
+}
+.ItemCard:active {
+  background: #dadada;
+}
+.ItemCard:hover {
+  box-shadow: 0 0 15px #0d0c0b;
+}
+
+.Image {
+  width: 100%;
+  height: 250px;
+  background: #dadada;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.Image img {
+  width: inherit;
+  height: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.Info {
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Name {
+  color: #0d0c0b;
+  font-size: 20px;
+  font-weight: 700;
+}
+.Name::-moz-selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.Name::selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+
+.Price {
+  color: #525252;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.Price::-moz-selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.Price::selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+
+.SaleMark {
+  color: #e8e8e8;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #f80000;
+  padding: 10px 20px;
+}
+.SaleMark::-moz-selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.SaleMark::selection {
+  background: #f80000;
+  color: #0d0c0b;
+}/*# sourceMappingURL=ItemCard.module.css.map */
