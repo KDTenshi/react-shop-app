@@ -1,0 +1,20 @@
+@use "../../style/colors" as c;
+@use "../../style/spacings" as s;
+
+@import "../../style/mixins";
+
+.Image {
+  width: 100%;
+  background: c.$gray-light;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  & img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    object-position: center;
+  }
+}
