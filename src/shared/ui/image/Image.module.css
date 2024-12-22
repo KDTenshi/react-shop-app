@@ -13,4 +13,7 @@
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }/*# sourceMappingURL=Image.module.css.map */

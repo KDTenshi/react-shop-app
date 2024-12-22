@@ -1,6 +1,5 @@
 .BannersGrid {
   display: grid;
-  padding: 0 10vw;
   background: #e8e8e8;
   gap: 25px;
   grid-template: "a a b c" 15vw "d d e f" 15vw;

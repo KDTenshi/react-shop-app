@@ -26,3 +26,11 @@
 @mixin Text_White($size: 16px) {
   @include Text(c.$white, $size);
 }
+
+@mixin Page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 10vw;
+  background: c.$white;
+}
