@@ -10,8 +10,8 @@ const HomePage: FC = () => {
       <Banner />
       <div className={style.PageContent}>
         <DisplayCase type="best" />
-        <DisplayCase type="popular" />
         <DisplayCase type="sale" />
+        <DisplayCase type="popular" />
         <BannersGrid />
       </div>
     </main>
