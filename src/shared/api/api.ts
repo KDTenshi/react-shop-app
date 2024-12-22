@@ -8,7 +8,10 @@ export const api = createApi({
     getProducts: builder.query<Item[], DisplayCaseType | void>({
       query: (type) => (type ? type : ""),
     }),
+    getBanners: builder.query<string[], void>({
+      query: () => "banners",
+    }),
   }),
 });
 
-export const { useGetProductsQuery } = api;
+export const { useGetProductsQuery, useGetBannersQuery } = api;
