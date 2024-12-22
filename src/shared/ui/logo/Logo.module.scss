@@ -9,4 +9,8 @@
   & span {
     @include Text_Red(36px);
   }
+
+  &_Light {
+    @include Text_White(36px);
+  }
 }
