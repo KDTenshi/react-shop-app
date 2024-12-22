@@ -3,6 +3,7 @@ import { Header } from "../../components/header";
 import { NavBar } from "../../components/navbar";
 import { DisplayCase } from "../../components/displayCase";
 import { Banner } from "../../components/banner";
+import { BannersGrid } from "../../components/bannersGrid";
 
 const App: FC = () => {
   return (
@@ -13,6 +14,7 @@ const App: FC = () => {
       <DisplayCase type="best" />
       <DisplayCase type="popular" />
       <DisplayCase type="sale" />
+      <BannersGrid />
     </>
   );
 };

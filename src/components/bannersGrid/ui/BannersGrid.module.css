@@ -1,0 +1,26 @@
+.BannersGrid {
+  display: grid;
+  padding: 0 10vw;
+  background: #e8e8e8;
+  gap: 25px;
+  grid-template: "a a b c" 15vw "d d e f" 15vw;
+}
+
+.Image:nth-child(1) {
+  grid-area: a;
+}
+.Image:nth-child(2) {
+  grid-area: b;
+}
+.Image:nth-child(3) {
+  grid-area: c;
+}
+.Image:nth-child(4) {
+  grid-area: d;
+}
+.Image:nth-child(5) {
+  grid-area: e;
+}
+.Image:nth-child(6) {
+  grid-area: f;
+}/*# sourceMappingURL=BannersGrid.module.css.map */
