@@ -21,4 +21,16 @@
 .Logo span::selection {
   background: #f80000;
   color: #0d0c0b;
+}
+.Logo_Light {
+  color: #e8e8e8;
+  font-size: 36px;
+}
+.Logo_Light::-moz-selection {
+  background: #f80000;
+  color: #0d0c0b;
+}
+.Logo_Light::selection {
+  background: #f80000;
+  color: #0d0c0b;
 }/*# sourceMappingURL=Logo.module.css.map */
