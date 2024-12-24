@@ -1,0 +1,6 @@
+.ItemsList {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 20px;
+  background: #e8e8e8;
+}/*# sourceMappingURL=ItemsList.module.css.map */

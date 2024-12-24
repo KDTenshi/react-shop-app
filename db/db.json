@@ -85,6 +85,34 @@
       "price": 120,
       "onSale": true,
       "image": "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
+    },
+    {
+      "id": "minifig-00029",
+      "name": "Sale Figure 29",
+      "price": 110,
+      "onSale": true,
+      "image": "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
+    },
+    {
+      "id": "minifig-00030",
+      "name": "Sale Figure 30",
+      "price": 180,
+      "onSale": true,
+      "image": "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
+    },
+    {
+      "id": "minifig-00031",
+      "name": "Sale Figure 31",
+      "price": 500,
+      "onSale": true,
+      "image": "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
+    },
+    {
+      "id": "minifig-00032",
+      "name": "Sale Figure 32",
+      "price": 120,
+      "onSale": true,
+      "image": "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
     }
   ],
   "best": [
@@ -115,6 +143,34 @@
       "price": 75,
       "onSale": true,
       "image": "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
+    },
+    {
+      "id": "minifig-00025",
+      "name": "Best Figure 25",
+      "price": 155,
+      "onSale": false,
+      "image": "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
+    },
+    {
+      "id": "minifig-00026",
+      "name": "Best Figure 26",
+      "price": 90,
+      "onSale": false,
+      "image": "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
+    },
+    {
+      "id": "minifig-00027",
+      "name": "Best Figure 27",
+      "price": 50,
+      "onSale": false,
+      "image": "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
+    },
+    {
+      "id": "minifig-00028",
+      "name": "Best Figure 28",
+      "price": 75,
+      "onSale": true,
+      "image": "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
     }
   ],
   "popular": [
@@ -142,6 +198,34 @@
     {
       "id": "minifig-00020",
       "name": "Popular Figure 20",
+      "price": 75,
+      "onSale": false,
+      "image": "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
+    },
+    {
+      "id": "minifig-00021",
+      "name": "Popular Figure 21",
+      "price": 155,
+      "onSale": false,
+      "image": "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
+    },
+    {
+      "id": "minifig-00022",
+      "name": "Popular Figure 22",
+      "price": 90,
+      "onSale": false,
+      "image": "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
+    },
+    {
+      "id": "minifig-00023",
+      "name": "Popular Figure 23",
+      "price": 50,
+      "onSale": false,
+      "image": "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
+    },
+    {
+      "id": "minifig-00024",
+      "name": "Popular Figure 24",
       "price": 75,
       "onSale": false,
       "image": "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
