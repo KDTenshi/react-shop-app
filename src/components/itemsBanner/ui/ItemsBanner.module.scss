@@ -1,0 +1,41 @@
+@use "../../../shared/style/colors" as c;
+@use "../../../shared/style/spacings" as s;
+
+@import "../../../shared/style/mixins";
+
+.ItemsBanner {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  padding: 25px 125px;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+}
+
+.Image {
+  position: absolute;
+  top: -50%;
+  left: 0;
+  z-index: -1;
+}
+
+.Text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Title {
+  font-size: 24px;
+  color: c.$black;
+  font-weight: 800;
+}
+
+.Description {
+  font-size: 16px;
+  color: c.$gray;
+  width: 60vw;
+}
