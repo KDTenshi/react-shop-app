@@ -1,7 +1,6 @@
 import { FC } from "react";
 import { DisplayCaseType } from "../../../shared/types/types";
 import style from "./ItemsBanner.module.css";
-import { Image } from "../../../shared/ui";
 
 interface ItemsBannerProps {
   type: DisplayCaseType;
@@ -24,8 +23,7 @@ const content: { [key in DisplayCaseType]: { title: string; image: string } } = 
 
 const ItemsBanner: FC<ItemsBannerProps> = ({ type }) => {
   return (
-    <div className={style.ItemsBanner}>
-      <Image src={content[type].image} alt={content[type].title} className={style.Image} />
+    <div className={style.ItemsBanner} style={{ backgroundImage: `url(${content[type].image})` }}>
       <div className={style.Text}>
         <h2 className={style.Title}>{content[type].title}</h2>
         <p className={style.Description}>

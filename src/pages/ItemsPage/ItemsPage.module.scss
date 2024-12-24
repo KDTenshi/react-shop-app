@@ -1,0 +1,15 @@
+@use "../../shared/style/colors" as c;
+@use "../../shared/style/spacings" as s;
+
+@import "../../shared/style/mixins";
+
+.ItemsPage {
+  background: c.$white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.PageContent {
+  @include Page();
+}

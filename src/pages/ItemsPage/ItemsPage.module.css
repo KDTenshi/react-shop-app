@@ -1,0 +1,14 @@
+.ItemsPage {
+  background: #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.PageContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 10vw;
+  background: #e8e8e8;
+}/*# sourceMappingURL=ItemsPage.module.css.map */
