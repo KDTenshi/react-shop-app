@@ -1,0 +1,11 @@
+@use "../../../shared/style/colors" as c;
+@use "../../../shared/style/spacings" as s;
+
+@import "../../../shared/style/mixins";
+
+.ItemsList {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 20px;
+  background: c.$white;
+}
