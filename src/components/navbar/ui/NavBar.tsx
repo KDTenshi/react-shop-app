@@ -1,22 +1,23 @@
 import { FC } from "react";
 import style from "./NavBar.module.css";
+import { Link } from "react-router-dom";
 
 const NavBar: FC = () => {
   return (
     <div className={style.Wrapper}>
       <nav className={style.NavBar}>
-        <a className={style.Link} href="/">
+        <Link className={style.Link} to="/">
           Main
-        </a>
-        <a className={style.Link} href="/">
-          New
-        </a>
-        <a className={style.Link} href="/">
+        </Link>
+        <Link className={style.Link} to="/popular">
+          Popular
+        </Link>
+        <Link className={style.Link} to="/best">
           Best
-        </a>
-        <a className={style.Link} href="/">
+        </Link>
+        <Link className={style.Link} to="/sale">
           Sales
-        </a>
+        </Link>
         <a className={style.Link} href="/">
           Figures
         </a>
