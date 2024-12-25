@@ -1,12 +1,12 @@
 import { FC } from "react";
-import { DisplayCaseType } from "../../../shared/types/types";
+import { ItemsGroupType } from "../../../shared/types/types";
 import { useGetProductsQuery } from "../../../shared/api/api";
 import style from "./ItemsList.module.css";
 import ItemCardSkeleton from "../../itemCard/ui/ItemCardSkeleton";
 import { ItemCard } from "../../itemCard";
 
 interface ItemsListProps {
-  type: DisplayCaseType;
+  type: ItemsGroupType;
 }
 
 const ItemsList: FC<ItemsListProps> = ({ type }) => {
