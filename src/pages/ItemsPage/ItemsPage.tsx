@@ -2,10 +2,10 @@ import { FC } from "react";
 import style from "./ItemsPage.module.css";
 import { ItemsBanner } from "../../components/itemsBanner";
 import { ItemsList } from "../../components/itemsList";
-import { DisplayCaseType } from "../../shared/types/types";
+import { ItemsGroupType } from "../../shared/types/types";
 
 interface ItemsPageProps {
-  type: DisplayCaseType;
+  type: ItemsGroupType;
 }
 
 const ItemsPage: FC<ItemsPageProps> = ({ type }) => {
