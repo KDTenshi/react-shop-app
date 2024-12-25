@@ -4,7 +4,7 @@ export type ButtonPropsDefault = ButtonHTMLAttributes<HTMLButtonElement>;
 
 export type IconType = "fav" | "user" | "cart";
 
-export type DisplayCaseType = "best" | "popular" | "sale";
+export type ItemsGroupType = "best" | "popular" | "sale";
 
 export type Item = {
   id: string;

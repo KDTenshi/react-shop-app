@@ -1,15 +1,15 @@
 import { FC } from "react";
-import { DisplayCaseType } from "../../../shared/types/types";
+import { ItemsGroupType } from "../../../shared/types/types";
 import style from "./DisplayCase.module.css";
 import { ItemCard } from "../../itemCard";
 import { useGetProductsQuery } from "../../../shared/api/api";
 import ItemCardSkeleton from "../../itemCard/ui/ItemCardSkeleton";
 
 interface DisplayCaseProps {
-  type?: DisplayCaseType;
+  type?: ItemsGroupType;
 }
 
-const titles: { [key in DisplayCaseType]: string } = {
+const titles: { [key in ItemsGroupType]: string } = {
   best: "Best of all time",
   popular: "Popular",
   sale: "On sale now",

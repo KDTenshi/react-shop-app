@@ -1,12 +1,12 @@
 import { FC } from "react";
-import { DisplayCaseType } from "../../../shared/types/types";
+import { ItemsGroupType } from "../../../shared/types/types";
 import style from "./ItemsBanner.module.css";
 
 interface ItemsBannerProps {
-  type: DisplayCaseType;
+  type: ItemsGroupType;
 }
 
-const content: { [key in DisplayCaseType]: { title: string; image: string } } = {
+const content: { [key in ItemsGroupType]: { title: string; image: string } } = {
   best: {
     title: "The best figurines and models you could find",
     image: "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
