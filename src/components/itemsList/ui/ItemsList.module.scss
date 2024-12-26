@@ -4,6 +4,7 @@
 @import "../../../shared/style/mixins";
 
 .ItemsList {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(4, auto);
   gap: 20px;

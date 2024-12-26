@@ -6,7 +6,7 @@ export const api = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:8000/" }),
   endpoints: (builder) => ({
     getProducts: builder.query<Item[], ItemsGroupType | void>({
-      query: (type) => (type ? type : ""),
+      query: (type) => (type ? type : "all"),
     }),
     getBanners: builder.query<string[], void>({
       query: () => "banners",

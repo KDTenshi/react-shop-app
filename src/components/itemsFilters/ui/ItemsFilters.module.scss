@@ -1,0 +1,18 @@
+@use "../../../shared/style/colors" as c;
+@use "../../../shared/style/spacings" as s;
+
+@import "../../../shared/style/mixins";
+
+.ItemsFilters {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.Wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
