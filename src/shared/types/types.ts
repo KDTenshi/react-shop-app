@@ -13,3 +13,10 @@ export type Item = {
   image: string;
   onSale: boolean;
 };
+
+export type FiltersType = {
+  title: string;
+  series: string;
+  type: string;
+  sortBy: string;
+};

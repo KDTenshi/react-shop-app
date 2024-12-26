@@ -18,9 +18,9 @@ const NavBar: FC = () => {
         <Link className={style.Link} to="/sale">
           Sales
         </Link>
-        <a className={style.Link} href="/">
+        <Link className={style.Link} to="/figures">
           Figures
-        </a>
+        </Link>
         <a className={style.Link} href="/">
           Models
         </a>

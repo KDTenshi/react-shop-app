@@ -1,0 +1,8 @@
+@use "../../shared/style/colors" as c;
+@use "../../shared/style/spacings" as s;
+
+@import "../../shared/style/mixins";
+
+.FiguresPage {
+  @include Page();
+}
