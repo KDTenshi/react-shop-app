@@ -17,7 +17,16 @@ export const api = createApi({
     getBigBanner: builder.query<{ image: string }, void>({
       query: () => "bigBanner",
     }),
+    getFilters: builder.query<{ [key in "series" | "types" | "titles"]: string[] }, void>({
+      query: () => "filters",
+    }),
   }),
 });
 
-export const { useGetProductsQuery, useGetBannersQuery, useGetPageBannersQuery, useGetBigBannerQuery } = api;
+export const {
+  useGetProductsQuery,
+  useGetBannersQuery,
+  useGetPageBannersQuery,
+  useGetBigBannerQuery,
+  useGetFiltersQuery,
+} = api;
