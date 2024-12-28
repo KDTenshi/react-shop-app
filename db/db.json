@@ -255,5 +255,10 @@
       "title": "Figurines and models that are currently on sale",
       "image": "https://i.ibb.co/CtFHtmn/Page-Banner-Sale.png"
     }
+  },
+  "filters": {
+    "series": ["Games", "Anime", "Movies", "Other"],
+    "titles": ["Genshin Impact", "Devil May Cry", "DC", "Marvel", "Monster Hunter", "Other"],
+    "types": ["Funko", "Flex", "Acryl", "Other"]
   }
 }
